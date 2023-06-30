@@ -9,8 +9,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-:root{
-  --cor:pink;
+:root {
+  --cor: #ef4b23;
+  --background-color: gray;
 }
 
 body {
@@ -1661,14 +1662,13 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #eeeeee;
+  background: var(--background-color);
   padding: 0 0 30px 0;
   color: #555555;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #f6f6f6;
   padding: 60px 0 30px 0;
 }
 
