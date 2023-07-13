@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 :root {
   --cor: #ef4b23;
-  --background-color: gray;
+  --background-color: white;
 }
 
 body {
@@ -704,9 +704,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Featured Services
+# Featured topics
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+.featured-topics .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -717,7 +717,7 @@ section {
   z-index: 1;
 }
 
-.featured-services .icon-box::before {
+.featured-topics .icon-box::before {
   content: "";
   position: absolute;
   background: #d9f1f2;
@@ -729,45 +729,45 @@ section {
   z-index: -1;
 }
 
-.featured-services .icon-box:hover::before {
+.featured-topics .icon-box:hover::before {
   background: var(--cor);
   top: 0;
   border-radius: 0px;
 }
 
-.featured-services .icon {
+.featured-topics .icon {
   margin-bottom: 15px;
 }
 
-.featured-services .icon i {
+.featured-topics .icon i {
   font-size: 48px;
   line-height: 1;
   color: var(--cor);
   transition: all 0.3s ease-in-out;
 }
 
-.featured-services .title {
+.featured-topics .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.featured-services .title a {
+.featured-topics .title a {
   color: #111;
 }
 
-.featured-services .description {
+.featured-topics .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.featured-services .icon-box:hover .title a,
-.featured-services .icon-box:hover .description {
+.featured-topics .icon-box:hover .title a,
+.featured-topics .icon-box:hover .description {
   color: #fff;
 }
 
-.featured-services .icon-box:hover .icon i {
+.featured-topics .icon-box:hover .icon i {
   color: #fff;
 }
 
@@ -911,14 +911,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# topics
 --------------------------------------------------------------*/
-.services .icon-box {
+.topics .icon-box {
   margin-bottom: 20px;
   text-align: center;
 }
 
-.services .icon {
+.topics .icon {
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -933,16 +933,16 @@ section {
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
 
-.services .icon i {
+.topics .icon i {
   font-size: 36px;
   line-height: 0;
 }
 
-.services .icon-box:hover .icon {
+.topics .icon-box:hover .icon {
   box-shadow: 0px 0 25px rgba(63, 187, 192, 0.3);
 }
 
-.services .title {
+.topics .title {
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 18px;
@@ -950,16 +950,16 @@ section {
   padding-bottom: 15px;
 }
 
-.services .title a {
+.topics .title a {
   color: #444444;
   transition: 0.3s;
 }
 
-.services .title a:hover {
+.topics .title a:hover {
   color: var(--cor);
 }
 
-.services .title::after {
+.topics .title::after {
   content: "";
   position: absolute;
   display: block;
@@ -970,7 +970,7 @@ section {
   left: calc(50% - 25px);
 }
 
-.services .description {
+.topics .description {
   line-height: 24px;
   font-size: 14px;
 }
@@ -1073,13 +1073,13 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Departments
+# doencas
 --------------------------------------------------------------*/
-.departments .nav-tabs {
+.doencas .nav-tabs {
   border: 0;
 }
 
-.departments .nav-link {
+.doencas .nav-link {
   border: 0;
   padding: 20px;
   color: #555555;
@@ -1088,60 +1088,60 @@ section {
   cursor: pointer;
 }
 
-.departments .nav-link h4 {
+.doencas .nav-link h4 {
   font-size: 18px;
   font-weight: 600;
   transition: 0.3s;
 }
 
-.departments .nav-link p {
+.doencas .nav-link p {
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.departments .nav-link:hover h4 {
+.doencas .nav-link:hover h4 {
   color: var(--cor);
 }
 
-.departments .nav-link.active {
+.doencas .nav-link.active {
   background: #f7fcfc;
   border-color: var(--cor);
 }
 
-.departments .nav-link.active h4 {
+.doencas .nav-link.active h4 {
   color: var(--cor);
 }
 
-.departments .tab-pane.active {
+.doencas .tab-pane.active {
   animation: slide-down 0.5s ease-out;
 }
 
-.departments .tab-pane img {
+.doencas .tab-pane img {
   float: left;
   max-width: 300px;
   padding: 0 15px 15px 0;
 }
 
 @media (max-width: 768px) {
-  .departments .tab-pane img {
+  .doencas .tab-pane img {
     float: none;
     padding: 0 0 15px 0;
     max-width: 100%;
   }
 }
 
-.departments .tab-pane h3 {
+.doencas .tab-pane h3 {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
   color: var(--cor);
 }
 
-.departments .tab-pane p {
+.doencas .tab-pane p {
   color: #777777;
 }
 
-.departments .tab-pane p:last-child {
+.doencas .tab-pane p:last-child {
   margin-bottom: 0;
 }
 
