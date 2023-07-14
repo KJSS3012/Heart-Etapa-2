@@ -74,3 +74,16 @@ Agora o ponto mais famosos que são as `<nav>`, elas são utilizadas para, princ
 >Ao menos quatro dos seis princípios de Design de Interação devem ser
 destacados e explicados. Essa explicação deverá ser feita por meio de relatório a
 ser entregue paralelamente ao sistema.
+
+![](relatorio-img/visi.png)
+• Visibilidade: Nosso projeto é um site basicamente informativo, logo de cara vemos um texto, que ainda iremos escrever, nele haverá informações sobre a atividade, sobre o grupo e sobre o projeto em si. Levantando o olhar vemos o header, a barra laranja provavelmente vai sumir também e os tópicos mais importantes, que são links para os conteúdos do site estão bem visíveis, o button de Make an Appointment também será alterado. 
+
+![](relatorio-img/feed1.png)
+![](relatorio-img/feed2.png)
+• Feedback: Ao buscarmos as doenças nos tópicos aparecerá esta tela, usada como exemplo, sabemos qual doença estamos olhando a diferença de cores na barra lateral. A laranja/vermelha é a que estamos lendo no momento e ao colocarmos o cursor sobre outra doença a fonte ficará colorida e aparecerá a barrinha cinza, mostrando uma resposta a ação do usuário, ao trocarmos de doença as cores da barra irão se alterar também. 
+
+![](relatorio-img/cons.png)
+• Consistência: Por ser um modelo bootstrap toda a página é padronizada, seja na tipografia, seja nas cores que estão sempre se repetindo e mesmo que seja usado diferentes layouts durante o projeto, existem algumas consistências, como esse pequeno traço colorido embaixo do título.
+
+![](relatorio-img/afo.png)
+• Affordance e Significantes: Essa sessão do nosso site é um formulário, o affordance está sendo utilizado no formato da caixa de texto e na mudança do cursor quando ele é colocado em cima destas e junto com ela existe um significante, aparecendo na forma da borda colorida quando clicamos para preencher os dados.
