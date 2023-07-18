@@ -937,3 +937,7 @@ iframe.wait-autoplay {
     background: #000;
   }
 }
+
+.gnext, .gprev{
+  display: none;
+}
